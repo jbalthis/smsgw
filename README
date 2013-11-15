@@ -43,7 +43,7 @@ $ echo "This is a test message." | gnokii --sendsms 987654321
    
    You may delete smsgw.sql after importing it.
    
-2) Modify include/config.php to match the db details above
+2) Modify common.php to match the db details above
    Example:
    define("HOST","localhost");
    define("DB_NAME","smsgw");
